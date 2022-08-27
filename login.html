@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa fa-times"></i>
+            </button>
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="howitswork.html"> How it works </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Who can prescribe? </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Contact us </a>
+              </li>
+              <li>
+                <a href="register.html" class="btn btn-default d-lg-none mt-2">
+                  Register
+                </a>
+              </li>
+              <li>
+                <a href="login.html" class="btn btn-outline-default d-lg-none mt-2">
+                  Login
+                </a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <a href="register.html" class="btn btn-outline-default"> Register </a>
+            <a href="login.html" class="btn btn-default"> Login </a>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="bg-image regi-img">
+        <div class="top-bgimg"></div>
+        <!-- <div class="bottom-bgimg"></div> -->
+        <section class="section-space login">
+          <div class="container">
+            <div class="section-heading mb-3 mt-4 mb-md-5 mt-md-5 text-center">
+              <h2 class="section-title">Login</h2>
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
+                  <div class="login-content">
+                    <form class="row g-md-4 g-3">
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email Address">                  
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-12">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">                  
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="forgot">Forgot Password?</a>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-default text-uppercase w-100 justify-content-center">Login</button>
+                        </div>
+                    </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </body>
+</html>
